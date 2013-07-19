@@ -1,0 +1,46 @@
+{
+  "global": {
+    "database": {
+      "user": "root",
+      "prefix": "wp_",
+      "charset": "utf8",
+      "collate": ""
+    },
+    "salts": [
+      "CCCK5-p8|% hw;Ro/MB8r;Cw?*T8blGobdnW2CuqTY|-+3l8V]c%}#04J5^Y3 6#",
+      "Q9ep`?],+lg)K,BAui[J-90:G#-7e@XtsWlHytwkaa>Sn<pXvG&uY7l!@cXOF(V2",
+      "P$-^]#uDQf40:j)~aEPl&QH?6)6J8|zF2Ph^DhR 0:i&{4R!/`^=-f+-g!;-lkeL",
+      "/%Y2&d7$+A1.>?9HmJ-#}WPq{;k5-2645:!,Eikm9-~DN*TI>k/%w-Kd8 -}/84j",
+      "_bOFN2N><Q%)Ur<f2_0#U9@z87E+2BK]tIxlr0|Aa4#&2BppW<VK-ot4=nUhRTB0",
+      "uSf6q8*-lM-n/yL8u,nV.jT{}tcB!?J^Fv[j:6L{Vt9(ty@.*kEo>`~=1Y5.e1[x",
+      "S|vZ=uKJNd>M+Q$*A||eE6DCj.7u[a>Yy`|]yPgMVlf]iZk-@4=E%;||2JLGe:T8",
+      "~>j6D *r#?2Qo6189@R+fn]T/(Q|hA9KxkcxkN<F|Gvo#(FC=%Vx,y40CRL_FrWG"
+    ],
+    "disable": {
+      "cron": true,
+      "edits": true
+    },
+    "define": {
+      "SAVEQUERIES": true,
+      "WP_DEBUG": true
+    }
+  },
+
+
+  "local": {
+    "database": {
+      "name": "mylocaldb",
+      "pass": "root",
+      "host": "localhost"
+    }
+  },
+
+
+  "remote": {
+    "database": {
+      "name": "example.com",
+      "pass": "foobar",
+      "host": "dbserver.xxxyyyzzz.us-west-2.rds.amazonaws.com"
+    }
+  }
+}
